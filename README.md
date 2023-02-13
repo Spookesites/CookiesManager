@@ -80,6 +80,13 @@ editCookieName(currentCookieName, currentCookieValue, newCookieName);
 
 Note: The "editCookieValue" and "editCookieName" functions should be implemented for the examples to work.
 
+**Or if you want to do it the Classic way..**
+```javascript
+document.cookie = "cookie_name=new_cookie_value; expires=Thu, 18 Dec 2023 12:00:00 UTC; path=/";
+```
+In this example, the `cookie_name` is the name of the cookie you want to edit, and `new_cookie_value` is the new value you want to set for the cookie. The expires attribute sets the expiry date for the cookie, and the path attribute specifies the URL path for which the cookie is valid.
+
+Note that in order for this to work, the new cookie must have the same name, path, and domain as the original cookie. Additionally, the new cookie must be set with the document.cookie property before the page is unloaded, as cookies are stored on the client-side and are not sent to the server unless a new request is made.
 
 ## Error Handling
 You could add some error handling to the code to handle situations where the name argument is an empty string or undefined, and the value argument is undefined.
