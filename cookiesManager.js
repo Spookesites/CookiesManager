@@ -37,3 +37,21 @@ function createCookie(name, value, days) {
   function deleteCookie(name) {
     createCookie(name, "", -1);
   }
+
+// Function to edit the name of a cookie
+function editCookieName(oldName, newName) {
+    let cookieValue = readCookie(oldName);
+    if (cookieValue) {
+        deleteCookie(oldName);
+        createCookie(newName, cookieValue, null);
+    }
+}
+
+// Function to edit the value of a cookie
+function editCookieValue(name, newValue) {
+    let cookieValue = readCookie(name);
+    if (cookieValue) {
+        deleteCookie(name);
+        createCookie(name, newValue, null);
+    }
+}
