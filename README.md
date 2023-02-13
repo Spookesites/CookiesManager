@@ -3,10 +3,16 @@ A JavaScript library for creating, reading, modifying and deleting cookies with 
 
 [Click here to View the Library!](https://github.com/Spookesites/CookiesManager/blob/main/cookiesManager.js)
 
-#### Credits
-This project was created by **Spook**. I would like to extend my gratitude to my friends who have supported me and encouraged me to bring this project to life. Your help and encouragement has been invaluable and I am grateful to have friends like you.
+#### 🙏 Credits
 
-Without your support, this project would not have been possible. Thank you!
+This project was brought to life with passion by **Spook**. I am overflowing with gratitude for the friends who have supported me and encouraged me along the way.
+
+Without their unwavering help and inspiration, this project would not have been possible. Thank you from the bottom of my heart to all my amazing friends. You are truly the best.
+
+---
+
+🎉 Congratulations on your project! 🎉
+
 
 ## Features
 
