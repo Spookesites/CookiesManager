@@ -62,7 +62,7 @@ This code deletes the cookie named "username".
 
 ### Editing a Cookie
 
-This functions allows you to edit the name and value of a cookie to change it as arguments.
+These functions allows you to edit the name and value of a cookie to change it as arguments.
 ```javascript
 // Example of using the editCookieValue function
 let currentCookieName = "userInformation";
