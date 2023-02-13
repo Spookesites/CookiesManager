@@ -60,6 +60,27 @@ deleteCookie("username");
 ```
 This code deletes the cookie named "username".
 
+### Editing a Cookie
+
+This functions allows you to edit the name and value of a cookie to change it as arguments.
+```javascript
+// Example of using the editCookieValue function
+let currentCookieName = "userInformation";
+let currentCookieValue = readCookie(currentCookieName);
+let newCookieValue = "updatedValue";
+editCookieValue(currentCookieName, currentCookieValue, newCookieValue);
+```
+```javascript
+// Example of using the editCookieName function
+let currentCookieName = "userInformation";
+let currentCookieValue = readCookie(currentCookieName);
+let newCookieName = "userDetails";
+editCookieName(currentCookieName, currentCookieValue, newCookieName);
+```
+
+Note: The "editCookieValue" and "editCookieName" functions should be implemented for the examples to work.
+
+
 ## Error Handling
 You could add some error handling to the code to handle situations where the name argument is an empty string or undefined, and the value argument is undefined.
 
