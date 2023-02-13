@@ -20,3 +20,8 @@ You can create a cookie by calling the `createCookie` function and passing in th
 ```javascript
 createCookie(name, value, days);
 ```
+### Creating a Cookie with Infinite Expiration Time
+You can create a cookie with infinite expiration time by calling the createCookieInfinite function and passing in the name, value, and either 0 or any falsy value for the days argument:
+```javascript
+createCookieInfinite(name, value, days);
+```
