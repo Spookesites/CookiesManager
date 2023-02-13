@@ -19,6 +19,7 @@ Without their unwavering help and inspiration, this project would not have been 
 - Create a cookie with a specified name, value, and number of days until expiration
 - Create a cookie with infinite expiration time
 - Read the value of a cookie by its name
+- Edit A Cookie Name And Value
 - Delete a cookie by its name
 
 ## Usage
