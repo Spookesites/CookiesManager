@@ -1,9 +1,6 @@
 # CookiesManager
 A JavaScript library for creating, reading, modifying and deleting cookies with ease. With this library, you can easily manage your website's cookies and their attributes, such as name, value, and expiration date. The library provides a user-friendly interface for working with cookies, making it simple and straightforward to use.
 
-
-A JavaScript library for creating, reading, modifying, and deleting cookies with ease. With this library, you can easily manage your website's cookies and their attributes, such as name, value, and expiration date. The library provides a user-friendly interface for working with cookies, making it simple and straightforward to use.
-
 ## Features
 
 - Create a cookie with a specified name, value, and number of days until expiration
@@ -41,6 +38,19 @@ The function returns the value of the cookie as a string, or null if the cookie 
 ```javascript
 let username = readCookie("username");
 console.log(username); // "John Doe"
-
 ```
+
+### Deleting Cookies
+To delete a cookie, use the deleteCookie function. This function takes one argument: name. The name argument is a string that represents the name of the cookie you want to delete.
+```javascript
+deleteCookie("username");
+```
+This code deletes the cookie named "username".
+
+## Error Handling
+You could add some error handling to the code to handle situations where the name argument is an empty string or undefined, and the value argument is undefined.
+
+## Conclusion
+This library provides a simple and easy-to-use solution for working with cookies in JavaScript. You can create cookies with an expiration date or with infinite time/days, read cookies, and delete cookies with just a few lines of code.
+
 
