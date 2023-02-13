@@ -25,3 +25,22 @@ You can create a cookie with infinite expiration time by calling the createCooki
 ```javascript
 createCookieInfinite("username", "John Doe", null); // or createCookieInfinite("username", "John Doe");
 ```
+
+### Create Cookie with Expiration Date
+To create a cookie with an expiration date, use the createCookie function. This function takes three arguments: name, value, and days.
+
+The name argument is a string that represents the name of the cookie. The value argument is a string that represents the value of the cookie. The days argument is a number that represents the number of days until the cookie expires:
+```javascript
+createCookie("username", "John Doe", 7);
+```
+
+### Reading Cookies
+To read a cookie, use the readCookie function. This function takes one argument: name. The name argument is a string that represents the name of the cookie you want to read.
+
+The function returns the value of the cookie as a string, or null if the cookie does not exist.
+```javascript
+let username = readCookie("username");
+console.log(username); // "John Doe"
+
+```
+
